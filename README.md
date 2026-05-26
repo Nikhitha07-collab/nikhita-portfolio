@@ -1,16 +1,93 @@
-# React + Vite
+# Nikhita Kanneganti — Biomedical AI Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern biomedical AI portfolio showcasing healthcare AI applications, medical imaging projects, and AI-powered diagnostic support systems.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Portfolio Website
 
-## React Compiler
+🔗 https://nikhita-portfolio-liard.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Featured AI Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Breast Ultrasound AI Diagnostic Support System
+
+A deployed healthcare AI application that analyzes breast ultrasound images and provides AI-assisted diagnostic support.
+
+### Features
+
+- Ultrasound image upload
+- DICOM support
+- Lesion segmentation using U-Net
+- CNN-based image classification
+- Benign / Malignant / Normal prediction
+- Lesion coverage estimation
+- AI-generated diagnostic note
+- Streamlit deployment
+
+---
+
+## 🚀 Live AI Application
+
+🔗 https://breast-ultrasound-ai-app-rpjenoks5pbx7wd9uevn28.streamlit.app/
+
+---
+
+## 💻 AI Project Repository
+
+🔗 https://github.com/Nikhitha07-collab/Breast-Ultrasound-AI-App
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- Vite
+- CSS
+
+### AI / Backend
+- Python
+- TensorFlow
+- OpenCV
+- Streamlit
+- NumPy
+- Pydicom
+
+### Deployment
+- Vercel
+- GitHub
+- Streamlit Cloud
+
+---
+
+## 📚 Focus Areas
+
+- Biomedical Engineering
+- Healthcare AI
+- Medical Imaging
+- Diagnostic Support Systems
+- AI Model Deployment
+- Biomedical Software Applications
+
+---
+
+## 🎓 Education
+
+### Southern Illinois University Carbondale
+Master’s in Biomedical Engineering
+
+---
+
+## 📫 Contact
+
+### LinkedIn
+🔗 https://www.linkedin.com/in/nikhitha-kanneganti/
+
+### GitHub
+🔗 https://github.com/Nikhitha07-collab
+
+### Email
+📧 nikhitakanneganti07@gmail.com
