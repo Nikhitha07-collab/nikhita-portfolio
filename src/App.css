@@ -550,3 +550,197 @@ body::before {
     font-size: 4rem;
   }
 }
+/* =========================================================
+   COMPACT MEDICAL IMAGING / SKILLS CARDS
+   ========================================================= */
+
+/* Container holding the three main cards */
+.skills-grid,
+.expertise-grid,
+.focus-grid {
+  width: 100%;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 24px;
+
+  align-items: start;
+}
+
+
+/* Main large boxes */
+.skill-card,
+.expertise-card,
+.focus-category,
+.category-card {
+  min-height: auto !important;
+  height: auto !important;
+
+  padding: 26px 28px !important;
+
+  border-radius: 22px !important;
+}
+
+
+/* Card headings */
+.skill-card h2,
+.skill-card h3,
+.expertise-card h2,
+.expertise-card h3,
+.focus-category h2,
+.focus-category h3,
+.category-card h2,
+.category-card h3 {
+  margin-top: 0 !important;
+  margin-bottom: 18px !important;
+
+  font-size: 24px !important;
+  line-height: 1.2 !important;
+}
+
+
+/* Reduce spacing between the pills */
+.skill-tags,
+.skills-list,
+.tag-container,
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px 10px !important;
+
+  align-items: center;
+}
+
+
+/* Smaller individual pills */
+.skill-tags span,
+.skills-list span,
+.tag-container span,
+.tag-list span {
+  padding: 8px 15px !important;
+
+  font-size: 14px !important;
+
+  line-height: 1.2 !important;
+
+  border-radius: 22px !important;
+
+  margin: 0 !important;
+}
+
+
+/* Reduce unnecessary vertical whitespace */
+.skill-card p,
+.expertise-card p,
+.focus-category p,
+.category-card p {
+  margin-top: 8px !important;
+  margin-bottom: 12px !important;
+
+  line-height: 1.5 !important;
+}
+
+
+/* Tablet */
+@media (max-width: 1000px) {
+  .skills-grid,
+  .expertise-grid,
+  .focus-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+  .skills-grid,
+  .expertise-grid,
+  .focus-grid {
+    grid-template-columns: 1fr;
+
+    max-width: 520px;
+  }
+
+  .skill-card,
+  .expertise-card,
+  .focus-category,
+  .category-card {
+    padding: 22px !important;
+  }
+
+  .skill-tags span,
+  .skills-list span,
+  .tag-container span,
+  .tag-list span {
+    padding: 7px 13px !important;
+    font-size: 13px !important;
+  }
+}
+/* =========================================================
+   PROJECT CARD SPACING FIX
+   Prevent technology tags and buttons from colliding
+   ========================================================= */
+
+/* Technology/tag row */
+.project-tags,
+.tech-tags,
+.project-tech,
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+
+  /* Space between tags and buttons */
+  margin-bottom: 28px !important;
+}
+
+
+/* Button row */
+.project-buttons,
+.project-actions,
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 18px;
+
+  /* Extra separation from technology tags */
+  margin-top: 8px !important;
+}
+
+
+/* Individual project buttons */
+.project-buttons a,
+.project-actions a,
+.project-links a {
+  margin: 0 !important;
+}
+
+
+/* Give the whole project card breathing room at the bottom */
+.project-card {
+  padding-bottom: 32px !important;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+  .project-tags,
+  .tech-tags,
+  .project-tech,
+  .tags {
+    margin-bottom: 22px !important;
+  }
+
+  .project-buttons,
+  .project-actions,
+  .project-links {
+    gap: 12px;
+  }
+}
