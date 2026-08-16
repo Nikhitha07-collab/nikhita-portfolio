@@ -1,4 +1,12 @@
 import "./App.css";
+// Remove tracking parameters from the browser URL
+if (window.location.search) {
+  window.history.replaceState(
+    {},
+    document.title,
+    window.location.pathname + window.location.hash
+  );
+}
 
 function App() {
   const MEDICAL_IMAGING_APP_URL = "https://medical-imaging-platform.onrender.com";
