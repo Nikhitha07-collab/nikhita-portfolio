@@ -9,7 +9,8 @@ if (window.location.search) {
 }
 
 function App() {
-  const MEDICAL_IMAGING_APP_URL = "https://medical-imaging-platform.onrender.com";
+  const MEDICAL_IMAGING_APP_URL =
+  "https://medical-imaging-platform.onrender.com/";
   const BREAST_ULTRASOUND_APP_URL = "https://breast-ultrasound-ai-app-rpjenoks5pbx7wd9uevn28.streamlit.app/";
 
   const experienceListStyle = {
