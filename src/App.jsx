@@ -10,6 +10,7 @@ if (window.location.search) {
 
 function App() {
   const MEDICAL_IMAGING_APP_URL = "https://medical-imaging-platform.onrender.com";
+  const BREAST_ULTRASOUND_APP_URL = "https://breast-ultrasound-ai-app-rpjenoks5pbx7wd9uevn28.streamlit.app/";
 
   const experienceListStyle = {
     listStyle: "none",
@@ -709,7 +710,7 @@ function App() {
             <div className="project-links">
 
               <a
-                href="https://breast-ultrasound-ai-app.streamlit.app/"
+                href={BREAST_ULTRASOUND_APP_URL}
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-primary btn-sm"
